@@ -6,14 +6,14 @@ Esta pagina cruza a entrega com os requisitos das paginas de Project, Exchange A
 
 | Area | Status | Observacao |
 | --- | --- | --- |
-| Repositorio individual | Feito localmente | Falta publicar no GitHub Pages apos commit e push |
-| MkDocs individual | Feito | `mkdocs build --strict` passou localmente |
+| Repositorio individual | Feito | Publicado em GitHub Pages |
+| MkDocs individual | Feito | `mkdocs build --strict` passou localmente e site esta publicado |
 | Exchange API | Feito | Codigo fonte, testes, Dockerfile, Jenkinsfile e Kubernetes incluidos |
 | Jenkins | Parcial | Jenkinsfiles existem nos repos, mas falta evidencia do pipeline executando deploy no EKS |
 | MiniKube/Kubernetes | Parcial | Manifests existem, mas falta evidencia em video/print de todos os servicos saudaveis no mesmo cluster |
-| Project AWS/EKS | Parcial | A infraestrutura e compartilhada pelo grupo; falta anexar evidencia final de deploy real |
+| Project AWS/EKS | Parcial | A infraestrutura e compartilhada pelo grupo; custo AWS observado foi registrado, mas faltam prints finais de cluster/deploy |
 | Load Testing/HPA | Parcial | O teste e do projeto em grupo; falta anexar video do HPA escalando |
-| Costs & PaaS | Parcial | A analise e do projeto em grupo; falta estimativa final da AWS Pricing Calculator e descricao concreta do PaaS usado |
+| Costs & PaaS | Parcial | Custo real AWS foi registrado; falta estimativa final da AWS Pricing Calculator e descricao concreta do PaaS usado |
 | Bottlenecks | Feito | Dois bottlenecks individuais documentados: dependencia externa e observabilidade |
 | Apresentacao e video | Pendente | Falta inserir links finais |
 | Uso de IA | Documentado | Ver [Uso de IA](uso-ia.md) |
@@ -35,7 +35,7 @@ Esta pagina cruza a entrega com os requisitos das paginas de Project, Exchange A
 ## Riscos para 100%
 
 - O enunciado do projeto menciona que o projeto principal deve incorporar as implementacoes individuais como submodules. O repositorio de grupo referencia repos separados, mas neste clone nao ha `.gitmodules`.
-- A documentacao do grupo ainda marca como pendente o deploy real em AWS/EKS, pipelines Jenkins apontando para EKS, video do HPA, prints/evidencias e estimativa da AWS Pricing Calculator.
+- A documentacao do grupo ainda precisa anexar prints finais de EKS, Jenkins, HPA e a estimativa formal da AWS Pricing Calculator.
 - A pagina de Presentation pede apresentacao e video. Esta entrega individual ja tem uma pagina para isso, mas os links finais ainda precisam ser inseridos.
 
 ## Interpretacao para a entrega individual

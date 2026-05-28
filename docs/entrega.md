@@ -25,7 +25,7 @@
 
 ## Pendencias finais
 
-- Publicar este MkDocs pelo GitHub Pages do repositorio individual.
+- MkDocs individual publicado em <https://raphaellafer.github.io/projeto_individual_api/>.
 - Inserir o link final da apresentacao.
 - Inserir o link final do video.
 - Enviar no Blackboard o link da documentacao individual publicada.
@@ -34,3 +34,5 @@
 ## Observacao sobre AWS
 
 O deploy em AWS/EKS e uma evidencia do projeto em grupo. Este repositorio individual nao precisa criar uma infraestrutura AWS separada; ele deve apontar para a documentacao e para as evidencias do ambiente compartilhado pelo grupo.
+
+A documentacao do grupo registra o custo observado no console AWS e deve concentrar os prints finais do ambiente compartilhado.
