@@ -1,0 +1,34 @@
+site_name: Entrega Individual - Raphael Lafer
+site_description: Documentacao individual dos exercicios e do projeto de Platforms, Microservices, DevOps and APIs.
+site_author: Raphael Cimerman Lafer
+repo_url: https://github.com/Raphaellafer/projeto_individual_api
+repo_name: Raphaellafer/projeto_individual_api
+site_url: https://raphaellafer.github.io/projeto_individual_api/
+
+theme:
+  name: material
+  language: pt-BR
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Inicio: index.md
+  - Entrega: entrega.md
+  - Criterios: criterios.md
+  - Rubrica: rubrica.md
+  - Atividades: atividades.md
+  - Exchange API:
+      - Visao Geral: exchange.md
+      - API: api.md
+      - Arquitetura: architecture.md
+      - Desenvolvimento: development.md
+  - Projeto: projeto.md
+  - Bottlenecks: bottlenecks.md
+  - Repositorios: repositorios.md
+  - Uso de IA: uso-ia.md
+  - Apresentacao: apresentacao.md
